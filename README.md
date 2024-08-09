@@ -1,66 +1,66 @@
 # 🛒 E-Commerce Java React App
 
-Este es un proyecto de aplicación web de comercio electrónico que incluye un frontend desarrollado en React y un backend en Spring Boot. El objetivo de esta aplicación es ofrecer una interfaz sencilla que permite a los usuarios buscar productos, añadirlos al carrito, realizar el checkout y gestionar su cuenta.
+This is a web application project for e-commerce that includes a frontend developed in React and a backend in Spring Boot. The goal of this application is to provide a simple interface that allows users to search for products, add them to the cart, proceed to checkout, and manage their account.
 
-## 🗂️ Estructura del Proyecto
+## 🗂️ Project Structure
 
-El proyecto está organizado de la siguiente manera:
+The project is organized as follows:
 
-- **client/**: Contiene el código fuente del frontend en React.
-  - **src/**: Código fuente principal del frontend.
-    - **features/**: Módulos principales de la aplicación como `account`, `basket`, `catalog`, `checkout`, etc.
-- **javareact/**: Contiene el código fuente del backend en Spring Boot.
-  - **src/main/java/com/ecommerce/**: Código fuente principal del backend.
-    - **controller/**: Controladores REST para manejar las solicitudes HTTP.
-    - **entity/**: Entidades JPA que representan las tablas de la base de datos.
-    - **repository/**: Repositorios para el acceso a datos.
-    - **service/**: Servicios de negocio que contienen la lógica de la aplicación.
-- **docker/**: Contendrá en el futuro los archivos de configuración para Docker Compose.
+- **client/**: Contains the source code for the React frontend.
+  - **src/**: Main source code for the frontend.
+    - **features/**: Main modules of the application such as `account`, `basket`, `catalog`, `checkout`, etc.
+- **javareact/**: Contains the source code for the Spring Boot backend.
+  - **src/main/java/com/ecommerce/**: Main source code for the backend.
+    - **controller/**: REST controllers to handle HTTP requests.
+    - **entity/**: JPA entities representing the database tables.
+    - **repository/**: Repositories for data access.
+    - **service/**: Business services containing the application logic.
+- **docker/**: Will contain the configuration files for Docker Compose in the future.
 
-## 🚀 Inicialización del Proyecto
+## 🚀 Project Initialization
 
-Para inicializar el proyecto, sigue los pasos a continuación:
+To initialize the project, follow these steps:
 
 1. **Backend (Spring Boot):**
-   - Navega a la carpeta `javareact` y ejecuta el siguiente comando para iniciar el servidor Spring Boot:
+   - Navigate to the `javareact` folder and run the following command to start the Spring Boot server:
      ```bash
      mvn spring-boot:run
      ```
 
 2. **Frontend (React):**
-   - Navega a la carpeta `client` y ejecuta el siguiente comando para iniciar el servidor de desarrollo de React:
+   - Navigate to the `client` folder and run the following command to start the React development server:
      ```bash
      npm run dev
      ```
 
-3. **Docker Compose (En desarrollo):**
-   - Navega a la carpeta `docker` y ejecuta el siguiente comando para levantar los servicios utilizando Docker Compose:
+3. **Docker Compose (Under Development):**
+   - Navigate to the `docker` folder and run the following command to bring up the services using Docker Compose:
      ```bash
      docker-compose up
      ```
-   - *Nota: El archivo principal de Docker Compose está pendiente de implementación.*
+   - *Note: The main Docker Compose file is pending implementation.*
 
-## 🔑 Credenciales de Inicio de Sesión
+## 🔑 Login Credentials
 
-Actualmente, la función de registro no está implementada, por lo que puedes iniciar sesión utilizando las siguientes credenciales:
+Currently, the registration function is not implemented, so you can log in using the following credentials:
 
 - **Username:** `Miguel`
 - **Password:** `Password`
 
-## 🛠️ Requisitos de Entorno
+## 🛠️ Environment Requirements
 
-Para ejecutar el proyecto correctamente, asegúrate de tener las siguientes versiones instaladas en tu entorno de desarrollo:
+To run the project correctly, ensure you have the following versions installed in your development environment:
 
 - **Node.js:** `20.15.1`
 - **JDK:** `21.0.4`
 - **Maven:** `3.8.7`
 
-## 🚧 Trabajo Futuro
+## 🚧 Future Work
 
-- Implementación de la función de registro de usuarios.
-- Configuración completa del archivo `docker-compose.yml`.
-- Integración continua y despliegue automático.
+- Implementation of the user registration feature.
+- Complete configuration of the `docker-compose.yml` file.
+- Continuous integration and automatic deployment.
 
 ---
 
-¡Disfruta desarrollando y mejorando este proyecto! 😊
+Enjoy developing and improving this project! 😊
