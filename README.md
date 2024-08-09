@@ -15,7 +15,7 @@ The project is organized as follows:
     - **entity/**: JPA entities representing the database tables.
     - **repository/**: Repositories for data access.
     - **service/**: Business services containing the application logic.
-- **docker/**: Will contain the configuration files for Docker Compose in the future.
+- **docker/**: Currently contains docker compose for mysql and redis services.
 
 ## 🚀 Project Initialization
 
